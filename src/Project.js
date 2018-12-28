@@ -21,9 +21,16 @@ export default class Project extends React.Component{
     if(!this.state.expanded) {
       expand = 
       <a className='more-info' onClick={() => this.toggleExpand()}>Click here to see more info!</a>
+    } else {
+      expand = 
+      <a className='more-info' onClick={() => this.toggleExpand()}>Hide additional info.</a>
     }
     if(this.state.expanded){
-      element = <p>Hello</p>
+      element = 
+        <div className='expanded-info'>
+          <p className='tech-desc'>{this.props.techDesc}</p>
+          <p>For more info, visit this project's <a href={this.props.github} target='false'>GitHub Repo</a>.</p>
+        </div>
 
     }
     return (
@@ -32,8 +39,8 @@ export default class Project extends React.Component{
         <p className='project-desc'>{this.props.description}</p>
         <img src={this.props.screenshot} className='app-screenshot'alt={`${this.props.title} screenshot`}></img>
         <br />
-        {expand}
         {element}
+        {expand}
       </div>
     )
   }
