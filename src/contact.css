@@ -1,0 +1,61 @@
+
+.fa{
+  font-family: 'FontAwesome';
+}
+
+.contact-info{
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.contact-info h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: #d34c26;
+  text-shadow: 1px 1px 2px #d34c26;
+}
+
+.contact-icon{
+  font-size: 30px;
+  margin: 5px;
+}
+
+.contact-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.contact-list li{
+  font-size: 30px;
+  color:#144c52;
+}
+
+@media only screen and (min-width: 640px){
+  .contact-info h3{
+    font-size: 40px;
+  }
+  .contact-list{
+    margin: 0;
+  }
+  .contact-list li{
+    font-size: 35px;
+  }
+  .contact-icon{
+    font-size: 35px;
+    margin: 5px;
+  }
+  .contact-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+  }
+}

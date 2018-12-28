@@ -6,9 +6,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #d34c26;
+  font-family: 'Work Sans', sans-serif; 
+}
+
+h1, h2, h3{
+  color:#144c52;
+  font-family: 'Chakra Petch', sans-serif;
+  text-align: center;
+}
+
+h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: #d34c26;
+  text-shadow: 1px 1px 2px #d34c26;
+}
+
+a{
+  text-decoration: none;
+  color: #d34c26;
+}
+
+a:hover{
+  color: #144c52;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media only screen and (min-width: 640px){
+  h3{
+    font-size: 40px;
+  }
 }
