@@ -9,14 +9,6 @@
   text-align: center;
 }
 
-.contact-info h3{
-  font-size: 30px;
-  margin-bottom: 20px;
-  text-decoration: underline;
-  text-decoration-color: #d34c26;
-  text-shadow: 1px 1px 2px #d34c26;
-}
-
 .contact-icon{
   font-size: 30px;
   margin: 5px;
@@ -37,9 +29,6 @@
 }
 
 @media only screen and (min-width: 640px){
-  .contact-info h3{
-    font-size: 40px;
-  }
   .contact-list{
     margin: 0;
   }

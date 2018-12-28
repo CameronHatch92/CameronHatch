@@ -4,7 +4,7 @@ import './contact.css';
 export default function Contact(props) {
   return (
     <div className='contact-info'>
-    <h3>Contact Info</h3>
+    <h2>Contact Info</h2>
       <ul className='contact-list'>
         <li>
           Email: <a href='mailto:cameronlavigne92@gmail.com' className='contact-icon' title='Email cameronlavigne92@gmail.com'>

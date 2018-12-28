@@ -3,6 +3,7 @@ import './app.css';
 import Header from './header';
 import Contact from './Contact';
 import AboutMe from './AboutMe';
+import ProjectHolder from './ProjectHolder';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           Cameron Hatch
         </header>
         <AboutMe/>
+        <ProjectHolder />
         <Contact/>
       </div>
     );
