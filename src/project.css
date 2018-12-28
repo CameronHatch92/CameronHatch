@@ -10,6 +10,20 @@
   padding-bottom: 10px;
 }
 
+.more-info{
+  border: none;
+  font-size: 15px;
+  color: #d34c26;
+}
+
+.more-info:hover{
+  color: #144c52;
+}
+
+.more-info:focus{
+  outline: none;
+}
+
 .project h3{
   font-size: 25px;
   margin-bottom: 20px;
