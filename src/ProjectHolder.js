@@ -16,7 +16,7 @@ const EcharContributors =
 </p>
   return (
     <div>
-      <h2>Projects</h2>
+      <h2 id='Projects'>Projects</h2>
       <Project 
         title='Buvie'
         description='An app that lets users find people to watch their favorite movies with!'

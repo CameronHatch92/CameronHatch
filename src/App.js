@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './app.css';
-import Header from './header';
+import NavBar from './Nav-Bar';
 import Contact from './Contact';
 import AboutMe from './AboutMe';
 import ProjectHolder from './ProjectHolder';
@@ -9,13 +9,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
-        <header className="App-header">
-          Cameron Hatch
-        </header>
-        <AboutMe/>
-        <ProjectHolder />
-        <Contact/>
+        <NavBar />
+        <main>
+          <AboutMe />
+          <ProjectHolder/>
+          <Contact />
+        </main>
       </div>
     );
   }

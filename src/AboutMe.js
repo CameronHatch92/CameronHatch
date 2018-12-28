@@ -4,7 +4,7 @@ import './aboutme.css';
 export default function AboutMe(props) {
   return (
     <div className='about-me'>
-      <h2>About Me</h2>
+      <h2 id='AboutMe'>About Me</h2>
       <div className='info-holder'>
         <p className='hello'>Hi! I'm Cameron.</p>
         <p className='bio'>
