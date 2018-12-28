@@ -35,6 +35,18 @@
   color: #144c52;
 }
 
+.github-link{
+  color: #144c52;
+}
+
+.github-link a{
+  color: #144c52;
+}
+
+.github-link a:hover{
+  color: #d34c26;
+}
+
 @media only screen and (min-width: 640px){
   .expanded-info, .project-desc{
     width: 85%;
