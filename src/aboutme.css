@@ -1,0 +1,30 @@
+/* The animation code */
+@keyframes example {
+  from {color: #144c52;}
+  to {color: #d34c26;}
+}
+
+.hello{
+  animation-name: example;
+  animation-duration: 4s;
+  font-size: 25px;
+  color: #144c52;
+}
+
+.bio{
+  font-size: 20px;
+}
+
+.about-me{
+  margin: 10px;
+}
+
+@media only screen and (min-width: 640px){
+  .info-holder{
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+
+
