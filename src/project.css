@@ -15,6 +15,7 @@
   border: none;
   font-size: 15px;
   color: #d34c26;
+  background-color: white;
 }
 
 .more-info:hover{
@@ -25,13 +26,19 @@
   outline: none;
 }
 
-.project h3{
+.project h3, .project a{
   font-size: 25px;
   margin-bottom: 20px;
   margin-top: 30px;
   text-decoration: underline;
-  color:#d34c26;
-  text-shadow: 1px 1px 2px #144c52;
+  color:#144c52;
+  text-decoration-color: #d34c26;
+}
+
+.project a:hover{
+  text-decoration: underline;
+  color: #d34c26;
+  text-decoration-color: #144c52;
 }
 
 .project-desc{
