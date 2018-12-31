@@ -9,7 +9,7 @@ export default function NavBar(props){
         <a href='#AboutMe'>About Me</a> 
         <a href='#Projects'>Projects</a>
         <a href='#Contact'>Contact Info</a>
-        <a href='images/Resume.pdf' target='false'>Resume</a>
+        <a href='images/CameronHatch_Resume.pdf' target='false'>Resume</a>
       </div>
     </nav>
   )
