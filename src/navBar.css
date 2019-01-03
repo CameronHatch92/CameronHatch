@@ -68,10 +68,6 @@ h1{
   .links a:last-child:after{
     content: ""; 
   }
-
-  .links a:nth-last-child(2):after{
-    content: "";
-  }
 }
 
 @media only screen and (min-width: 640px){

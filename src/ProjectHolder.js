@@ -1,30 +1,30 @@
 import React from 'react';
 import Project from './Project';
+import './project-holder.css';
 
 export default function ProjectHolder(props) {
   const BuvieContributors = 
   <p>
-    This app was a team effort. My collaborators were <a href='https://github.com/kenttoku' target='false'>Kent Tokunaga</a>,
+    Built with <a href='https://github.com/kenttoku' target='false'>Kent Tokunaga</a>,
     <a href='https://github.com/NikolasMsomething' target='false'> Nikolas Melgarejo</a>, and 
-    <a href='https://github.com/Joe-Pena' target='false'> Joe Pena</a>. We used Agile and Scrum to get the job done.
+    <a href='https://github.com/Joe-Pena' target='false'> Joe Pena</a> using Agile and Scrum.
   </p>
 
 const EcharContributors = 
 <p>
-  This app was a team effort. My collaborator was <a href='https://github.com/rupp-colin' target='false'>Colin Rupp</a>. 
-  We used Agile and Scrum to get the job done.
+  Built with <a href='https://github.com/rupp-colin' target='false'>Colin Rupp</a> using Agile and Scrum.
 </p>
   return (
     <section>
       <h2 id='Projects'>Projects</h2>
+      <ul className='project-container'>
       <Project 
         title='Buvie'
         description='An app that lets users find people to watch their favorite movies with!'
         url='https://buvie.netlify.com/'
         screenshot='images/buvieShot.png'
         github='https://github.com/thinkful-ei24/buvie-client'
-        techDesc='This app was built with React and Redux on the front end and Node, Express,
-        and MongoDB on the back end. We also used websockets and location APIs.'
+        techDesc={['React', 'Redux', 'Node', 'Express', 'MongoDB', 'Websocket.io']}
         additional={BuvieContributors}
       />
       <Project 
@@ -35,8 +35,7 @@ const EcharContributors =
         url='https://spaced-repetition-cc.herokuapp.com/'
         screenshot='images/dashboard-echar.png'
         github='https://github.com/thinkful-ei24/cameron-colin-spaced-repetition-client'
-        techDesc='This app was built with React and Redux on the front end and Node, Express,
-        and MongoDB on the back end.'
+        techDesc={['React', 'Redux', 'Node', 'Express', 'MongoDB']}
         additional={EcharContributors}
       />
       <Project 
@@ -46,10 +45,11 @@ const EcharContributors =
         url='https://bachelorette-fantasty-league.herokuapp.com/'
         screenshot='images/BachelorShot.png'
         github='https://github.com/thinkful-ei24/cameron-fullstack-capstone-client'
-        techDesc='This app was built with React and Redux on the front end and Node, Express,
-        and MongoDB on the back end.'
+        techDesc={['React', 'Redux', 'Node', 'Express', 'MongoDB']}
         additional=''
       />
+      </ul>
+      
     </section>
   )
 }

@@ -17,8 +17,8 @@ export default function AboutMe(props) {
           <br/>
           <br/>
           What I love about coding is that it incorporates all of the things I love about
-           math, while also allowing me to build really cool things and work with a lot of awesome
-            developers. 
+           math, while also allowing me to <a href='#Projects'>build really cool things</a>, learn 
+           constantly, and work with a lot of awesome developers. 
             <br/>
           <br/>   
           When I'm not coding, I like to crochet, read up on real

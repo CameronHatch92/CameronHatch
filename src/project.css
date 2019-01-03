@@ -1,6 +1,6 @@
 .app-screenshot{
   width: 400px;
-  max-width: 50%;
+  max-width: 75%;
 }
 
 .project{
@@ -27,7 +27,21 @@
   outline: none;
 }
 
-.project h3, .project a{
+.project p{
+  font-size: 15px;
+  margin: 5px;
+}
+
+.tech-list{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  font-size: 15px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.project h3{
   font-size: 25px;
   margin-bottom: 20px;
   margin-top: 30px;
@@ -36,15 +50,9 @@
   text-decoration-color: #d34c26;
 }
 
-.project a:hover{
-  text-decoration: underline;
-  color: #d34c26;
-  text-decoration-color: #144c52;
-}
-
 .project-desc{
   margin: 10px;
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .expanded-info{
@@ -54,21 +62,8 @@
   font-size: 18px;
 }
 
-.tech-desc{
-  color: #144c52;
-}
 
-.github-link{
-  color: #144c52;
-}
 
-.github-link a{
-  color: #144c52;
-}
-
-.github-link a:hover{
-  color: #d34c26;
-}
 
 @media only screen and (min-width: 640px){
   .expanded-info, .project-desc{
@@ -77,5 +72,13 @@
   }
   .project{
     max-width: 85%;
+  }
+
+  .project-desc{
+    font-size: 20px !important;
+  }
+
+  .project p{
+    font-size: 15px;
   }
 }
