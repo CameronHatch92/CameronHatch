@@ -1,18 +1,17 @@
-/* The animation code */
-@keyframes example {
-  from {color: #144c52;}
-  to {color: #d34c26;}
-}
-
 .hello{
-  animation-name: example;
-  animation-duration: 4s;
-  font-size: 25px;
+  font-size: 30px;
   color: #144c52;
+  font-weight: bold;
 }
 
 .bio{
   font-size: 20px;
+}
+
+.my-picture{
+  display: block;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .about-me{

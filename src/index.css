@@ -11,11 +11,6 @@ body {
   line-height: 1.5; 
 }
 
-h1{
-  text-decoration-color: #d34c26;
-  text-shadow: 1px 1px 2px #d34c26;
-}
-
 h1, h2, h3{
   color:#144c52;
   font-family: 'Work Sans', sans-serif;
@@ -28,7 +23,6 @@ h2{
   margin-top: 30px;
   text-decoration: underline;
   text-decoration-color: #d34c26;
-  text-shadow: 1px 1px 2px #d34c26;
 }
 
 a{
