@@ -27,22 +27,22 @@ export default class Project extends React.Component{
     }
     if(this.state.expanded){
       element = 
-        <div className='expanded-info'>
+        <article className='expanded-info'>
           <p className='tech-desc'>{this.props.techDesc}</p>
           {this.props.additional}
           <p className='github-link'>For more info, visit this project's <a href={this.props.github} target='false'>GitHub Repo</a>.</p>
-        </div>
+        </article>
 
     }
     return (
-      <div className='project'>
+      <li className='project'>
         <h3><a href={this.props.url} target='false'>{this.props.title}</a></h3>
         <p className='project-desc'>{this.props.description}</p>
         <img src={this.props.screenshot} className='app-screenshot'alt={`${this.props.title} screenshot`}></img>
         <br />
         {element}
         {expand}
-      </div>
+      </li>
     )
   }
 }

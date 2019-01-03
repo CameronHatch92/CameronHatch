@@ -3,9 +3,9 @@ import './aboutme.css';
 
 export default function AboutMe(props) {
   return (
-    <div className='about-me'>
+    <section className='about-me'>
       <h2 id='AboutMe'>About Me</h2>
-      <div className='info-holder'>
+      <article className='info-holder'>
         <p className='hello'>Hi! I'm Cameron.</p>
         <p className='bio'>
           I really love problem solving, learning new things, working
@@ -15,7 +15,7 @@ export default function AboutMe(props) {
           When I'm not coding, I like to crochet, read up on real
         analysis, or play <a href='https://www.zmangames.com/en/games/pandemic/'>Pandemic</a>.
       </p>
-      </div>
-    </div>
+      </article>
+    </section>
   )
 }

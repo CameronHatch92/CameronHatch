@@ -1,7 +1,8 @@
 nav{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   position: fixed;
+  justify-items: start;
   width: 100%;
   top: 0;
   overflow: hidden;
@@ -12,19 +13,34 @@ nav{
 
 h1{
   justify-self: flex-start;
-  font-size: 35px; 
+  font-size: 30px; 
 }
 
 .links{
-  justify-self: flex-end;
   display: flex;
   margin-right: 20px;
   flex-direction: column;
   justify-content: space-evenly;
+  align-self: left;
 }
 
 .links a{
   margin: 5px;
+  display: none
+}
+
+.responsive{
+  display: block !important;
+  z-index: 1;
+}
+
+#icon{
+  display: block;
+  margin-right: 10px;
+}
+
+#icon i{
+  font-size: 25px;
 }
 
 @media only screen and (min-width: 800px){
@@ -34,9 +50,14 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
   }
-  
+
   .links a{
     margin: 0 5px;
+    display: block;
+  }
+
+  #icon{
+    display: none;
   }
 
   .links a::after{
@@ -46,6 +67,10 @@ h1{
 
   .links a:last-child:after{
     content: ""; 
+  }
+
+  .links a:nth-last-child(2):after{
+    content: "";
   }
 }
 

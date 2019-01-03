@@ -15,7 +15,7 @@ const EcharContributors =
   We used Agile and Scrum to get the job done.
 </p>
   return (
-    <div>
+    <section>
       <h2 id='Projects'>Projects</h2>
       <Project 
         title='Buvie'
@@ -50,6 +50,6 @@ const EcharContributors =
         and MongoDB on the back end.'
         additional=''
       />
-    </div>
+    </section>
   )
 }
